@@ -1,9 +1,11 @@
 import "./index.scss";
-import LogoS from "../../../public/assets/images/logo-s.png";
-import LogoSubtitle from "../../../public/assets/images/logo_sub.png";
+import LogoS from "../../assets/images/logo-s.png";
+import LogoSubtitle from "../../assets/images/logo_sub.png";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Sidebar() {
   return (
@@ -33,6 +35,14 @@ export default function Sidebar() {
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
       </nav>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/suhailmp2" target="__blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/></a>
+        </li>
+        <li>
+          <a href="https://www.github.com/suhailmuhammed157" target="__blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/></a>
+        </li>
+      </ul>
     </div>
   );
 }
