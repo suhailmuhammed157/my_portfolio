@@ -3,6 +3,7 @@ import "./index.scss";
 import LogoTitle from "../../assets/images/logo-s.png";
 import { Link } from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters";
+import Logo from "./Logo";
 
 export default function Home() {
   const [letterClass, setLetterClass] = React.useState("text-animate");
@@ -64,6 +65,7 @@ export default function Home() {
           CONTACT ME
         </Link>
       </div>
+      <Logo/>
     </div>
   );
 }
