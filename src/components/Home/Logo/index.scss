@@ -1,6 +1,6 @@
 .logo-container{
-    z-index: 0;
-    width: 400ox;
+    z-index: -1;
+    width: 400px;
     height: 609px;
     position: absolute;
     top: 0;
@@ -8,6 +8,8 @@
     left: auto;
     bottom: 0;
     margin: auto;
+    opacity: 0 ;
+    animation: fadeIn 1s 2s forwards;
 
     svg{
         width: 100%;
@@ -17,6 +19,24 @@
     }
 
     .solid-logo{
-        
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        opacity: 0;
+        transform: rotateZ(30deg);
+        z-index: 1;
+        animation: fadeOut 1s 2s forwards;
+    }
+
+    .svg-container{
+        stroke: #ffd700;
+        stroke-width: 10px ;
+        animation: fadeIn 1s 2s forwards;
+
     }
 }
+

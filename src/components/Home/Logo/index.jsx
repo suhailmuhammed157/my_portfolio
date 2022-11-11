@@ -1,5 +1,5 @@
 import './index.scss'
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import solidLogo from '../../../assets/images/logo-s.png'
 
 export default function Logo(){
@@ -7,8 +7,8 @@ export default function Logo(){
     const outlineLogoRef=useRef()
     const solidLogoRef = useRef()
     return (
-    <div className='logo-container'>
-        <img src={solidLogo} className='solid-logo' alt='S'/>
+    <div className='logo-container' ref={bgref}>
+        <img src={solidLogo} ref={solidLogoRef} className='solid-logo' alt='S'/>
         <svg
         width="559pt"
         height="897pt"

@@ -9,4 +9,12 @@ body{
   background: #022c43;
   overflow: hidden;
   display: block;
+
+}
+
+@media (min-width: 1300px) {
+  .logo-container{
+    right: 30%;
+    bottom: 20%;
+  }
 }

@@ -6,6 +6,7 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <div className="App">
+      <div className="container">
       <Sidebar />      
       <div className="page">
         <span className="tags top-tags">&lt;body&gt;</span>
@@ -17,6 +18,7 @@ export default function Layout() {
       <span className="bottom-html-tag">&lt;/html&gt;</span>
 
       </span>
+      </div>
       </div>
     </div>
   );
