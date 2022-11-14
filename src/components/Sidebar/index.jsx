@@ -3,7 +3,12 @@ import LogoS from "../../assets/images/logo-s.png";
 import LogoSubtitle from "../../assets/images/logo_sub.png";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faHome,
+  faUser,
+  faSuitcase,
+} from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -29,6 +34,14 @@ export default function Sidebar() {
         <NavLink
           exact="true"
           activeclassname="active"
+          className="portfolio-link"
+          to="/portfolio"
+        >
+          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
           className="contact-link"
           to="/contact"
         >
@@ -37,10 +50,22 @@ export default function Sidebar() {
       </nav>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/suhailmp2" target="__blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/></a>
+          <a
+            href="https://www.linkedin.com/in/suhailmp2"
+            target="__blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          </a>
         </li>
         <li>
-          <a href="https://www.github.com/suhailmuhammed157" target="__blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/></a>
+          <a
+            href="https://www.github.com/suhailmuhammed157"
+            target="__blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
         </li>
       </ul>
     </div>

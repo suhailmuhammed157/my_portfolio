@@ -1,0 +1,27 @@
+
+
+{
+    "portfolio":[
+        {
+            "cover" :"./src/assets/portfolio/chilled-grape/chilled-grape.png",
+            "title":"Chilled Grape",
+            "description":"A landing page using ReactJs, react hooks and SASS",
+            "url":"https://chilledgrape157.netlify.app"
+
+        },
+        {
+            "cover" :"./src/assets/portfolio/chilled-grape/chilled-grape.png",
+            "title":"Chilled Grape",
+            "description":"A landing page using ReactJs, react hooks and SASS",
+            "url":"https://chilledgrape157.netlify.app"
+
+        },
+        {
+            "cover" :"./src/assets/portfolio/chilled-grape/chilled-grape.png",
+            "title":"Chilled Grape",
+            "description":"A landing page using ReactJs, react hooks and SASS",
+            "url":"https://chilledgrape157.netlify.app"
+
+        }
+    ]
+}
