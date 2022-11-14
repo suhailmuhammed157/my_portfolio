@@ -33,19 +33,17 @@ export default function About() {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            mollitia expedita voluptatibus, dolores nam eligendi alias. Modi
-            praesentium alias perferendis?
+         I'm very ambitious full stack developer looking for a role in an established company with the opportunity to work with the latest technologies on challenging and diverse projects.
+
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            mollitia expedita voluptatibus, dolores nam eligendi alias. Modi
-            praesentium alias perferendis?
+          I'm a dedicated, multi-talented and performance driven professional
+          with a pro-active and determination to successfully finish all assigned projects within
+          budget and schedule. An effective team player offering extraordinary analytical
+          skills and important ability to think critical.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            mollitia expedita voluptatibus, dolores nam eligendi alias. Modi
-            praesentium alias perferendis?
+            If I need to define myself in one sentence that would be an hard-working, driven, tech obsessed and a sports fanatic individual who isn't afraid to face new challenges and experiences.
           </p>
         </div>
         <div className="stage-cube-cont">

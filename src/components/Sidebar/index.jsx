@@ -12,7 +12,7 @@ export default function Sidebar() {
     <div className="nav-bar">
       <Link className="logo" to="/">
         <img src={LogoS} alt="logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="logosub" />
+        {/* <img className="sub-logo" src={LogoSubtitle} alt="logosub" /> */}
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
