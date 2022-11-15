@@ -5,7 +5,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import portfolioData from "../../data/portfolio.json";
-import img from "../../../public/portfolio/chilled-grape/chilled-grape.png";
 
 export default function Portfolio() {
     const [letterClass, setLetterClass] = useState("text-animate");

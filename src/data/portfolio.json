@@ -3,21 +3,21 @@
 {
     "portfolio":[
         {
-            "cover" :"../public/portfolio/chilled-grape/chilled-grape.png",
+            "cover" :"../public/chilled-grape.png",
             "title":"Chilled Grape",
             "description":"A landing page using ReactJs, react hooks and SASS",
             "url":"https://chilledgrape157.netlify.app"
 
         },
         {
-            "cover" :"../public/portfolio/tenzies/tenzies.PNG",
+            "cover" :"../public/tenzies.PNG",
             "title":"Tenzies game",
             "description":"A game developed using react, react hooks and CSS",
             "url":"https://tenzies-game157.netlify.app"
 
         },
         {
-            "cover" :"../public/portfolio/meme-generator/meme-generator.jpg",
+            "cover" :"../public/meme-generator.jpg",
             "title":"Meme Generator",
             "description":"A meme generator app created using ReactJs, react hooks and CSS",
             "url":"https://meme-generator157.netlify.app"
