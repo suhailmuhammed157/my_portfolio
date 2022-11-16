@@ -40,3 +40,13 @@
     }
 }
 
+@media screen and (max-width:500px){
+    .logo-container{
+        position: relative;
+        width: 100px;
+        height: auto;
+        margin: auto;
+        left: 0;         
+    }
+}
+

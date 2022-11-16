@@ -23,7 +23,6 @@ export default function Portfolio() {
             <img
               src={item.cover}
               alt="img"
-              key={idx}
               className="portfolio-image"
             />
             <div className="content">

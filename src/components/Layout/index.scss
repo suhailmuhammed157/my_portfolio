@@ -39,3 +39,46 @@
 
     
 }
+
+@media screen and (max-width:500px){
+    .page{
+        position: initial;
+    }
+
+    .container{
+        position: initial;
+        height: auto;
+        min-height: auto;
+      
+
+
+        &.about-page,
+        &.contact-page,
+        &.portfolio-page{
+            .text-zone{
+                position: initial;
+                transform: none;
+                width: 100%;
+                display: block;
+                padding: 20px;
+                box-sizing: border-box;
+                margin-top: 25px;
+
+                h1{
+                    &::before,
+                    &::after{
+                        display: none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .tags,
+    .top-tags{
+        display: none;
+    }
+
+   
+}

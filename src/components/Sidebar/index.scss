@@ -151,7 +151,6 @@
         top: 0;
         left: 0;
         padding-top: 15px;
-        animation: fadeIn 1.2s 1s;
 
         a{
             display: flex;
@@ -171,8 +170,7 @@
         }
 
         &.mobile-view{
-            display: block;     
-            
+            display: block;               
             
         }
 

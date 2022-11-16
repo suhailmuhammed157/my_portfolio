@@ -18,6 +18,7 @@ import { useState } from "react";
 export default function Sidebar() {
   const [showNav, setShowNav] = useState(false);
 
+
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
@@ -25,7 +26,7 @@ export default function Sidebar() {
         {/* <img className="sub-logo" src={LogoSubtitle} alt="logosub" /> */}
       </Link>
       <nav className={showNav ? "mobile-view" : ""}>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink  exact="true" activeclassname="active" to="/" onClick={()=>setShowNav(false)} >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
@@ -33,6 +34,8 @@ export default function Sidebar() {
           activeclassname="active"
           className="about-link"
           to="/about"
+          onClick={() => setShowNav(false)}
+
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
@@ -41,6 +44,8 @@ export default function Sidebar() {
           activeclassname="active"
           className="portfolio-link"
           to="/portfolio"
+          onClick={() => setShowNav(false)}
+
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
@@ -49,6 +54,8 @@ export default function Sidebar() {
           activeclassname="active"
           className="contact-link"
           to="/contact"
+          onClick={() => setShowNav(false)}
+
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
@@ -82,7 +89,10 @@ export default function Sidebar() {
         </li>
       </ul>
       <FontAwesomeIcon
-        onClick={() => setShowNav(true)}
+        onClick={() => {
+          setShowNav(true);
+          console.log('clicked')
+        }}
         icon={faBars}
         color="#ffd700"
         size="3x"

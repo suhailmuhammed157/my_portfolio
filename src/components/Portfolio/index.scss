@@ -160,3 +160,29 @@
     }
     
 }
+
+
+@media screen and (max-width:500px){
+
+    .portfolio-page{
+    padding: 0;
+    width: 100%;
+    position: initial;
+    overflow: visible;
+        .text-zone{
+            margin: auto;
+
+            .images-container{
+                width: 100%;
+                .image-box{
+                    flex: 100%;                
+                }
+                
+            }
+        }
+
+   
+
+    }
+  
+  }
