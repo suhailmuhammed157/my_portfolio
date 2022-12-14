@@ -3,6 +3,13 @@
 {
     "portfolio":[
         {
+            "cover" :"/project-mogo.PNG",
+            "title":"Project Mogo",
+            "description":"A landing page developed from scratch using ReactJs, react hooks and SASS",
+            "url":"https://mogo157.netlify.app"
+
+        },
+        {
             "cover" :"/chilled-grape.png",
             "title":"Chilled Grape",
             "description":"A landing page using ReactJs, react hooks and SASS",
